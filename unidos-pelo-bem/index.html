@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Unidos pelo Bem — Missão e Projetos</title>
+  <meta name="description" content="Unidos pelo Bem — projeto social focado em comunidade e meio ambiente. Conheça nossos projetos, participe como voluntário ou apoie com doações.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">UNIDOS PELO BEM</h1>
+      <p class="site-subtitle">Conectando pessoas para transformar comunidades.</p>
+
+      <button id="menuToggle" aria-controls="mainNav" aria-expanded="false" class="menu-toggle">☰ Menu</button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Faça Parte</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <figure class="hero">
+      <picture>
+        <source srcset="img/hero.webp" type="image/webp">
+        <img src="img/hero.jpg" alt="Voluntários plantando árvores" loading="lazy">
+      </picture>
+      <figcaption class="sr-only">Voluntários trabalhando em ação comunitária</figcaption>
+    </figure>
+  </header>
+
+  <main id="main">
+    <section id="sobre" class="container">
+      <h2>Sobre a ONG</h2>
+      <p>Somos a <strong>Unidos pelo Bem</strong>, organização sem fins lucrativos dedicada à promoção de ações sociais e ambientais. Trabalhamos com projetos locais que unem comunidade, voluntariado e transparência nos resultados.</p>
+    </section>
+
+    <section id="destaques" class="container">
+      <h2>Projetos em destaque</h2>
+
+      <ul class="cards" aria-label="Projetos em destaque">
+
+        <li>
+          <article class="card">
+            <figure>
+              <picture>
+                <source srcset="img/projeto-1.webp" type="image/webp">
+                <img src="img/projeto-1.jpg" alt="Projeto educação infantil" loading="lazy">
+              </picture>
+              <figcaption>Projeto Educação</figcaption>
+            </figure>
+            <h3>Projeto Educação</h3>
+            <p>Programa de reforço escolar para crianças em situação de vulnerabilidade.</p>
+            <p><a href="projetos.html#proj-educacao">Ver detalhes</a></p>
+          </article>
+        </li>
+
+        <li>
+          <article class="card">
+            <figure>
+              <picture>
+                <source srcset="img/projeto-2.webp" type="image/webp">
+                <img src="img/projeto-2.jpg" alt="Projeto de reflorestamento" loading="lazy">
+              </picture>
+              <figcaption>Projeto Verde</figcaption>
+            </figure>
+            <h3>Projeto Verde</h3>
+            <p>Ações de reflorestamento e educação ambiental.</p>
+            <p><a href="projetos.html#proj-verde">Ver detalhes</a></p>
+          </article>
+        </li>
+
+      </ul>
+    </section>
+
+    <section id="cta" class="container">
+      <h2>Participe</h2>
+      <p>Seja voluntário ou apoie com doação — sua ajuda transforma vidas.</p>
+      <p class="cta-buttons">
+        <a class="btn" href="cadastro.html">Quero participar</a>
+        <a class="btn btn-outline" href="projetos.html">Ver projetos</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer id="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <address>
+        <p>Email: <a href="mailto:contato@unidospelbem.org">contato@unidospelbem.org</a></p>
+        <p>Telefone: <a href="tel:+5511900000000">(11) 90000-0000</a></p>
+      </address>
+      <p>© <span id="ano"></span> Unidos pelo Bem — Transparência e impacto.</p>
+    </div>
+  </footer>
+
+  <button id="toggleTheme" aria-label="Alternar tema">🌙</button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
